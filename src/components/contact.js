@@ -16,9 +16,9 @@ const Contacts = () => {
                         <label>Email</label>
                         <input type="email" name='email' className='email' required></input>
                         <label>Your interest</label>
-                        <input type=""></input>
+                        <input type="text" name="interest" className="interest"></input>
                         <label>Additional Information</label>
-                        <textarea></textarea>
+                        <textarea name="info"></textarea>
                         <button type="submit">Submit</button>
                     </form>
                 </div>
