@@ -1,0 +1,35 @@
+
+@import '../App.css';
+
+body{
+    background-color: #E3E1D9;
+}
+
+
+
+.about-bg{
+    height:100vh;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    overflow:visible;
+}
+
+
+.about-container{
+    margin-bottom:200px;
+    max-width: 700px;
+    max-height: 700px;
+    width:100%;
+    display:flex;
+    align-items: center;
+    gap:40px;
+    color:#3D3B40;
+    
+}
+
+.about-container img{
+    border-radius: 100%;
+    height:400px;
+    filter: grayscale()
+}

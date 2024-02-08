@@ -1,0 +1,41 @@
+@import '../App.css';
+
+
+.projects-bg{
+    height:100vh;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    width:auto;
+}
+
+
+
+.projects-container {
+    margin-bottom:200px;
+    max-width:600px;
+    display:flex;
+    align-items: center;
+    gap:40px;
+    margin-right:200px;
+    color:#3D3B40;
+}
+
+.projects-intro{
+    min-width: 200px;
+    line-height: 2;
+}
+
+
+.projects-img {
+    flex-basis: 50%;
+    height:300px;
+    border-radius: 10px;
+    filter:grayscale();
+    cursor: pointer;
+    transition: all .5s;
+}
+
+.projects-img:hover{
+    filter:none;
+}
