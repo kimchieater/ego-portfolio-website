@@ -2,6 +2,7 @@ import './contact.css';
 import React, {useRef} from 'react';
 import emailjs from '@emailjs/browser';
 import Nav from './nav';
+import { motion } from "framer-motion";
 
 
 
@@ -28,7 +29,7 @@ const Contacts = () => {
     return(
         <div className="contacts">
             <Nav></Nav>
-            <section className='contacts-bg'>
+            <motion.section className='contacts-bg' initial={{x: -1000, opacity:0}} animate={{x:0, opacity:1}}>
                 <div className="contacts-container">
 
                     <h2>Let's talk</h2>
@@ -49,7 +50,7 @@ const Contacts = () => {
                         <input type="submit" value="Send"></input>
                     </form>
                 </div>
-            </section>
+            </motion.section>
         </div>
     )
 }
