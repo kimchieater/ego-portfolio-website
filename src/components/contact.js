@@ -1,5 +1,5 @@
 import './contact.css';
-import {useRef} from 'react';
+import React, {useRef} from 'react';
 import emailjs from '@emailjs/browser';
 import Nav from './nav';
 
@@ -35,14 +35,17 @@ const Contacts = () => {
 
                     <form ref={form} onSubmit={sendEmail}>
 
-                        <label>Name<input type="text" name="user_name" className='name' required></input></label>
+                        <label>Name</label>
+                        <input type="text" name="user_name" className='name' required></input>
                         
-                        <label>Email<input type="email" name='user_email' className='email' required></input></label>
+                        <label>Email</label>
+                        <input type="email" name='user_email' className='email' required></input>
                         
-                        <label>Your interest <input type="text" name="message" className="interest"></input></label>
+                        <label>Your interest</label>
+                        <input type="text" name="message" className="interest"></input>
 
-                        <label>Additional Information  <textarea name="message" className='info'></textarea></label>
-
+                        <label>Additional Information  </label>
+                        <textarea name="message" className='info'></textarea>
                         <button type="submit">Submit</button>
                     </form>
                 </div>
