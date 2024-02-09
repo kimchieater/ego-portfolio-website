@@ -1,0 +1,13 @@
+@import "../App.css";
+
+
+
+.loading{
+  height:100vh;
+  background-color:#3D3B40 ;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  color: #E3E1D9;
+  font-size: 4rem;
+}

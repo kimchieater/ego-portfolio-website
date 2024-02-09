@@ -17,6 +17,12 @@ const About =  () =>
                     <h2>Hello</h2>
                     <h3>I'm Mathew 'Jason' Jeong</h3>
                     <p>I'm a frontend Developer specaility in <span style={{fontWeight:"bold",}}>reactJS</span></p>
+                    <p>I love Kimchi and Coding!</p>
+                    <h4>Skills</h4>
+                    <p>HTML, CSS, JavaScript, ReactJs</p>
+                    <h4>tools</h4>
+                    <p>Tailwind, Framer Motion,Bootstrap, Redux, React-Router</p>
+                    <p>VS code, Git, GitHub Desktop</p>
                     </div>
                 </div>
             </motion.div>

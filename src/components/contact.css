@@ -17,6 +17,7 @@
   width:100%;
   min-height: 500px;
   color:#3D3B40;
+  margin-bottom:100px;
 }
 
 .contacts-container h2{
@@ -69,4 +70,18 @@
   display:block;
 
 
+}
+
+input[type=submit]{
+  padding:10px;
+  width:100px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover{
+  background-color: #e6e5e5;
+}
+
+input[type=submit]:active{
+  background-color: #b1b0b0;
 }

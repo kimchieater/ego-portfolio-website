@@ -36,17 +36,17 @@ const Contacts = () => {
                     <form ref={form} onSubmit={sendEmail}>
 
                         <label>Name</label>
-                        <input type="text" name="user_name" className='name' required></input>
+                        <input type="text" name="user_name"></input>
                         
                         <label>Email</label>
-                        <input type="email" name='user_email' className='email' required></input>
+                        <input type="email" name='user_email'></input>
                         
                         <label>Your interest</label>
-                        <input type="text" name="message" className="interest"></input>
+                        <input type="text" name="message"></input>
 
                         <label>Additional Information  </label>
-                        <textarea name="message" className='info'></textarea>
-                        <button type="submit">Submit</button>
+                        <textarea name="message"></textarea>
+                        <input type="submit" value="Send"></input>
                     </form>
                 </div>
             </section>
