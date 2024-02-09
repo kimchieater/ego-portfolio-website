@@ -41,7 +41,7 @@
   border: 1px solid #eee;
   border-radius: 9px;
   outline:none;
-font-family: "Playfair Display", sans-serif;
+  font-family: "Playfair Display", sans-serif;
   width:100%;
 }
 
@@ -66,4 +66,7 @@ font-family: "Playfair Display", sans-serif;
   width: 300px;
   height:100px;
   resize: none;
+  display:block;
+
+
 }

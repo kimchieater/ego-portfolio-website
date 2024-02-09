@@ -9,16 +9,19 @@ const Contacts = () => {
             <Nav></Nav>
             <section className='contacts-bg'>
                 <div className="contacts-container">
+
                     <h2>Let's talk</h2>
+
                     <form name="contact" method="POST" data-netlify="true">
-                        <label>Name</label>
-                        <input type="text" name="name" className='name' required></input>
-                        <label>Email</label>
-                        <input type="email" name='email' className='email' required></input>
-                        <label>Your interest</label>
-                        <input type="text" name="interest" className="interest"></input>
-                        <label>Additional Information</label>
-                        <textarea name="info"></textarea>
+
+                        <label>Name<input type="text" name="name" className='name' required></input></label>
+                        
+                        <label>Email<input type="email" name='email' className='email' required></input></label>
+                        
+                        <label>Your interest <input type="text" name="interest" className="interest"></input></label>
+
+                        <label>Additional Information  <textarea name="info" className='info'></textarea></label>
+
                         <button type="submit">Submit</button>
                     </form>
                 </div>
