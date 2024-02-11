@@ -28,7 +28,7 @@ const Contacts = () => {
 
     return(
         <div className="contacts">
-            <Nav></Nav>
+
             <motion.section className='contacts-bg' initial={{x: -1000, opacity:0}} animate={{x:0, opacity:1}}>
                 <div className="contacts-container">
 

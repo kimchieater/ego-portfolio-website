@@ -74,7 +74,7 @@ export default function Header() {
 
   return (
     <div>
-      <Nav></Nav>
+
       <div
         className="header"
         onMouseMove={(coordinate) => {

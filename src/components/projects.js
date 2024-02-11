@@ -45,7 +45,7 @@ const Projects = () => {
     
 
         <motion.div>
-            <Nav></Nav>
+
             <motion.div className="projects-bg"  style={{
             }} animate={{x: wheel}}>
                 

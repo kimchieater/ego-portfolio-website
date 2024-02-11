@@ -5,9 +5,12 @@ import {motion} from "framer-motion";
 
 const About =  () =>
 {
+
+
+
     return(
         <div className="about">
-            <Nav></Nav>
+
             <motion.div className="about-bg"
             initial={{x:"-1000px", opacity:0,}}
             animate={{x:0, opacity:1,}}>
@@ -21,7 +24,7 @@ const About =  () =>
                     <h4>Skills</h4>
                     <p>HTML, CSS, JavaScript, ReactJs</p>
                     <h4>tools</h4>
-                    <p>Tailwind, Framer Motion,Bootstrap, Redux, React-Router</p>
+                    <p>Tailwind, Framer Motion, Bootstrap, Redux, React-Router</p>
                     <p>VS code, Git, GitHub Desktop</p>
                     </div>
                 </div>
